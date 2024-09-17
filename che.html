@@ -1,0 +1,72 @@
+
+<link rel="stylesheet" href="commerce.css">
+<form id="checkout-form">
+    <h1>Checkout</h1>
+    <h2>Complete your purchase</h2>
+    
+    <!-- Shipping Information -->
+    <fieldset>
+      <legend>Shipping Information</legend>
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full_name" required>
+      
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      
+    
+      
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required>
+      
+      
+      
+   
+      
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <!-- Add country options here -->
+      </select>
+    </fieldset>
+    
+    <!-- Payment Information -->
+    <fieldset>
+      <legend>Payment Information</legend>
+      <label for="card-name">Cardholder's Name:</label>
+      <input type="text" id="card-name" name="card_name" required>
+      
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" name="card_number" required>
+      
+      <label for="expiration-date">Expiration Date:</label>
+      <input type="text" id="expiration-date" name="expiration_date" placeholder="MM/YY" required>
+      
+     
+    
+          <!-- Add country options here -->
+        </select>
+      </div>
+    </fieldset>
+    
+    <!-- Order Summary -->
+    <fieldset>
+      <legend>Order Summary</legend>
+      <div id="order-summary">
+        <!-- List of items, subtotal, shipping fee, total amount will be dynamically inserted here -->
+      </div>
+    </fieldset>
+    
+    <!-- Additional Information -->
+    <fieldset>
+      <legend>Additional Information</legend>
+      <label for="order-notes">Order Notes (Optional):</label>
+      <textarea id="order-notes" name="order_notes"></textarea>
+    </fieldset>
+    
+    <!-- Footer -->
+    <button type="submit">Place Order</button>
+    <a href="index.html" type="button">Cancel</button>
+  </form>
+  

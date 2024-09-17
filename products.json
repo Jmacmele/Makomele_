@@ -1,0 +1,94 @@
+{
+    "items":[
+        {
+            "sys":{"id":"1"},
+            "fields":{
+                "title":"Python Programming MasterCourse",
+                "price":123.99,
+                "image":{"fields":{"file":{"url":"python.webp"}}}
+            }
+        },
+        {
+            "sys":{"id":"2"},
+            "fields":{
+                "title":"Javacsript full course",
+                "price":100.99,
+                "image":{"fields":{"file":{"url":"javascript.webp"}}}
+            }
+        },
+        {
+            "sys":{"id":"3"},
+            "fields":{
+                "title":"C++ programming master class",
+                "price":99.99,
+                "image":{"fields":{"file":{"url":"c++.jpg"}}}
+            }
+        },
+        {
+            "sys":{"id":"4"},
+            "fields":{
+                "title":"C programming for beginners",
+                "price":89.99,
+                "image":{"fields":{"file":{"url":"c.png"}}}
+            }
+        },
+        {
+            "sys":{"id":"5"},
+            "fields":{
+                "title":"Java programming",
+                "price":123.99,
+                "image":{"fields":{"file":{"url":"java.jpeg"}}}
+            }
+        },
+        {
+            "sys":{"id":"6"},
+            "fields":{
+                "title":"html for front end development",
+                "price":100.99,
+                "image":{"fields":{"file":{"url":"html.png"}}}
+            }
+        },
+        {
+            "sys":{"id":"7"},
+            "fields":{
+                "title":"react.js for web ",
+                "price":123.99,
+                "image":{"fields":{"file":{"url":"react.jpg"}}}
+            }
+        },
+        {
+            "sys":{"id":"8"},
+            "fields":{
+                "title":"Digital marketing full course",
+                "price":111.89,
+                "image":{"fields":{"file":{"url":"digital marketing.png"}}}
+            }
+        },
+        {
+            "sys":{"id":"9"},
+            "fields":{
+                "title":" Graphics and design course",
+                "price":113.09,
+                "image":{"fields":{"file":{"url":"graphics.jpg"}}}
+            }
+        },
+        {
+            "sys":{"id":"10"},
+            "fields":{
+                "title":"Data structures and algorithms full course ",
+                "price":89.56,
+                "image":{"fields":{"file":{"url":"data structures.png"}}}
+            }
+        },
+        {
+            "sys":{"id":"11"},
+            "fields":{
+                "title":"Advanced web development ",
+                "price":169.56,
+                "image":{"fields":{"file":{"url":"advanced.jpg"}}}
+            }
+        }
+        
+
+    ]
+}
